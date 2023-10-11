@@ -1,2 +1,3 @@
+*.tfstate
 outputs.tf
 variables.tf
