@@ -1,6 +1,5 @@
-###### Terrform Examples for AWS resources #########
-
-###### Basic requirements #########
+# Terrform Examples for AWS resources
+# Basic requirements #########
 
 - installed terrform on machine
 - configured aws cli on machine
