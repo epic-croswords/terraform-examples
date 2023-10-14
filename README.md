@@ -1,12 +1,11 @@
-Terrform Examples for AWS resources
+# Terrform Examples for AWS resources
 
-###### Basic requirements #########
+## Basic requirements
 
 - installed terrform on machine
 - configured aws cli on machine
 
-##### Basic commands for Implement this script #########
-
+## Basic commands for Implement this script
 - terraform init = for initializing directory
 - terraform fmt = for format the script in order
 - terraform validate = to check its script working or not 
@@ -14,4 +13,4 @@ Terrform Examples for AWS resources
 - terrform apply = for create infra  
 - terraform destroy = to destroy infra created by terrform 
 
-###### thats it your good to go #########
+## thats it your good to go
