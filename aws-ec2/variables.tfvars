@@ -14,7 +14,8 @@ variable "secret_key" {
   default = ""
 }
 
-# for Multiple Ecc2 instances 
+# for Multiple Ecc2 instances
+# to create more than two instance you can extend the for loop to 3-4-5 as you require and the module will automatically will create that 
 
 variable "key_pair" {
     default = "awspractice+epic+keypair"
