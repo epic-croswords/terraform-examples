@@ -13,3 +13,15 @@ variable "access_key" {
 variable "secret_key" {
   default = ""
 }
+
+# for Multiple Ecc2 instances 
+
+variable "key_pair" {
+    default = "awspractice+epic+keypair"
+}
+variable "sebnet_ID" {
+    default = "subnet-0f77a0fea04a56ddd"
+}
+variable "instance_req" {
+    default = "t2.micro"
+}
