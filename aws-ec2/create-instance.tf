@@ -8,14 +8,14 @@ terraform {
 }
     provider "aws" {
     region = "ap-south-1"
-    access_key = "***********"
-    secret_key = "***********"
+    access_key = var.access_key
+    secret_key = var.secret_key
 }
 
 resource "aws_instance" "web" {
-  count   = "1"
-  ami           = "ami-067c21fb1979f0b27"
-  instance_type = "t2.micro"
+  count   = var.ec2_count
+  ami           = var.ami-id
+  instance_type = var.instance_type
   user_data = "yum update -y"
 
   tags = {
