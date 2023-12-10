@@ -4,6 +4,7 @@
 - userdata.yml : contains user-data that runs once the resource created ( cloud-init script )
 
 # prerequisite 
+- create your own "ssh-keygen" to do login via passwordless authentication
 - install & configure aws-cli
 - install terrform in ubuntu
   
