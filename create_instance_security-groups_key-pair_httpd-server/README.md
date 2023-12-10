@@ -11,6 +11,7 @@
 # how to run
 
 - terraform init //for initalize repo
+- terraform fmt //for better & structured view 
 - terraform plan //for dry run
 - terrform apply //do changes
 - terrafrom destroy //to delete infra
