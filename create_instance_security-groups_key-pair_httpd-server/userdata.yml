@@ -1,0 +1,7 @@
+#cloud-config
+pakages:
+  - httpd
+runcmd:
+  - sudo -i
+  - sudo systemctl enable httpd
+  - sudo systemctl start httpd
